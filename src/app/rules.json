@@ -1,0 +1,220 @@
+[
+  {
+    "intent": "Order Status",
+    "keywords": [
+      "order status",
+      "track order",
+      "track my order",
+      "where is my order",
+      "check my order",
+      "check order",
+      "order tracking",
+      "my order status",
+      "order kahan hai",
+      "order ka status"
+    ],
+    "reply": "To check your order status, share your order number with the restaurant staff or call our sample helpline. Typical stages are: Received, Preparing, Out for Delivery, Delivered.\n\nNote: This is a demo chatbot with no database, so it cannot track real orders."
+  },
+  {
+    "intent": "Payment",
+    "keywords": [
+      "payment",
+      "payments",
+      "pay",
+      "cash",
+      "cash on delivery",
+      "cod",
+      "card",
+      "credit card",
+      "debit card",
+      "easypaisa",
+      "jazzcash",
+      "online payment",
+      "paisay",
+      "paise",
+      "adaigi"
+    ],
+    "reply": "💳 Sample payment methods:\n• Cash on Delivery\n• Debit / Credit Card\n• Mobile wallets (e.g. Easypaisa, JazzCash)\n\nDemo data only: this chatbot cannot process any real payment."
+  },
+  {
+    "intent": "Delivery",
+    "keywords": [
+      "delivery",
+      "deliver",
+      "delivery time",
+      "delivery charges",
+      "delivery fee",
+      "home delivery",
+      "how long",
+      "takeaway",
+      "pickup",
+      "dine in",
+      "ghar tak",
+      "delivery kitni der"
+    ],
+    "reply": "🛵 Sample delivery information:\n• Home Delivery: 30 to 45 minutes\n• Delivery charges: Rs. 100 (free above Rs. 1500)\n• Takeaway / Pickup: ready in 15 to 20 minutes\n• Dine-in is also available\n\nThese are demo details and can be edited in rules.json."
+  },
+  {
+    "intent": "Special Offers",
+    "keywords": [
+      "offer",
+      "offers",
+      "deal",
+      "deals",
+      "discount",
+      "discounts",
+      "combo",
+      "combos",
+      "promo",
+      "special",
+      "chhoot",
+      "sasta"
+    ],
+    "reply": "🎉 Sample offers and meal deals:\n• Burger Combo: Chicken Burger + French Fries + Soft Drink for Rs. 750\n• Family Deal: 2 Pizzas + 4 Soft Drinks for Rs. 2,800\n• Biryani Special: Chicken Biryani + Soft Drink for Rs. 480\n• 10% off on orders above Rs. 3000\n\nDemo offers only. You can edit them anytime."
+  },
+  {
+    "intent": "Prices",
+    "keywords": [
+      "price",
+      "prices",
+      "cost",
+      "how much",
+      "rate",
+      "rates",
+      "pricing",
+      "price list",
+      "qeemat",
+      "kitne ka",
+      "kitne ki",
+      "kitna",
+      "قیمت"
+    ],
+    "reply": "💰 Sample price list:\n• Chicken Burger: Rs. 450\n• Beef Burger: Rs. 550\n• Pizza (Medium): Rs. 1,200\n• French Fries: Rs. 250\n• Chicken Biryani: Rs. 400\n• Sandwich: Rs. 350\n• Soft Drink: Rs. 120\n\nThese are demo prices and can be edited in rules.json."
+  },
+  {
+    "intent": "Place Order",
+    "keywords": [
+      "order",
+      "place order",
+      "place an order",
+      "how to order",
+      "i want",
+      "i would like",
+      "i'd like",
+      "buy",
+      "add to cart",
+      "chicken burger",
+      "beef burger",
+      "burger",
+      "burgers",
+      "pizza",
+      "french fries",
+      "fries",
+      "chicken biryani",
+      "biryani",
+      "sandwich",
+      "soft drink",
+      "drink",
+      "order karna hai",
+      "mujhe chahiye",
+      "mujhe chahiye",
+      "آرڈر"
+    ],
+    "reply": "🍽️ Happy to help you order! Please tell me:\n1. The food item (e.g. Chicken Burger, Pizza, Chicken Biryani)\n2. The quantity (e.g. 2)\n\nExample: \"2 Chicken Burgers and 1 Soft Drink\".\n\nImportant: This is a demo of an ordering conversation only. No order is actually submitted, paid for, or delivered."
+  },
+  {
+    "intent": "Menu",
+    "keywords": [
+      "menu",
+      "food",
+      "foods",
+      "items",
+      "dishes",
+      "categories",
+      "what do you have",
+      "what do you sell",
+      "what do you serve",
+      "eat",
+      "hungry",
+      "menu dikhao",
+      "khana",
+      "kya milta hai",
+      "مینو"
+    ],
+    "reply": "📋 Our sample menu:\n\n🍔 Burgers: Chicken Burger, Beef Burger\n🍕 Pizza: Pizza (Medium)\n🍟 Sides: French Fries\n🍛 Rice: Chicken Biryani\n🥪 Quick Bites: Sandwich\n🥤 Drinks: Soft Drink\n\nAsk about prices or tell me what you would like to order. Menu items are demo data and can be edited later."
+  },
+  {
+    "intent": "Restaurant Timings",
+    "keywords": [
+      "timing",
+      "timings",
+      "time",
+      "hours",
+      "opening hours",
+      "opening time",
+      "closing time",
+      "open",
+      "close",
+      "closed",
+      "when do you open",
+      "when do you close",
+      "working days",
+      "weekend",
+      "kitne baje",
+      "waqt"
+    ],
+    "reply": "🕒 Sample restaurant timings:\n• Monday to Thursday: 11:00 AM to 11:00 PM\n• Friday to Sunday: 11:00 AM to 1:00 AM\n\nDemo timings only. You can edit them in rules.json."
+  },
+  {
+    "intent": "Contact",
+    "keywords": [
+      "contact",
+      "phone",
+      "phone number",
+      "call",
+      "number",
+      "address",
+      "email",
+      "location",
+      "where are you",
+      "whatsapp",
+      "helpline",
+      "raabta",
+      "number do"
+    ],
+    "reply": "📞 Sample contact details:\n• Phone: 0300-1234567\n• Email: info@demo-restaurant.example\n• Address: 123 Food Street, Sample City\n\nThese are demo details and can be edited later."
+  },
+  {
+    "intent": "Thanks",
+    "keywords": [
+      "thank you",
+      "thanks",
+      "thankyou",
+      "thx",
+      "shukriya",
+      "jazakallah"
+    ],
+    "reply": "You're welcome! 😊 Let me know if you would like to see the menu or place an order."
+  },
+  {
+    "intent": "Greeting",
+    "keywords": [
+      "hello",
+      "hi",
+      "hey",
+      "good morning",
+      "good afternoon",
+      "good evening",
+      "assalamualaikum",
+      "assalam o alaikum",
+      "salam",
+      "السلام علیکم"
+    ],
+    "reply": "Hello! Welcome to the Restaurant Ordering Bot. 🍔\n\nI can help you with the menu, prices, placing an order, delivery, payment methods, timings, and special offers. What would you like today?\n\n(Demo chatbot: no real orders are placed.)"
+  },
+  {
+    "intent": "Fallback",
+    "keywords": [],
+    "reply": "Sorry, I didn't understand that. 🙏 You can ask me about the menu, prices, how to place an order, delivery, payment, timings, offers, or contact details."
+  }
+]
